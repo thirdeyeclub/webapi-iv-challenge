@@ -15,7 +15,7 @@ if (!title.length > 0 || !contents.length > 0) {
     res.status(201).json(newPost);
     } catch (e) {
     res.status(500).json({
-        error: "There was an error while saving the post to the database"
+    error: "There was an error while saving the post to the database"
     });
     }
 }
@@ -61,7 +61,7 @@ if (!post) {
     res.status(200).json(records);
     } catch (e) {
     res.status(500).json({
-        error: "The post information could not be retrieved."
+    error: "The post information could not be retrieved."
     });
     }
 }
