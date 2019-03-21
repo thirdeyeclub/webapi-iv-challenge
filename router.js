@@ -90,6 +90,6 @@ if (!post) {
     }
     }
 
-});
+}});
 
 module.exports = router;

@@ -1,9 +1,9 @@
+require('dotenv').config();
 const server = require('./server.js');
 
-server.get('/',(req, res)=>{
-    res.send(`<div>API 2</div>`);
-});
+yourName = 'Taylor';
 
 const PORT = process.env.PORT || 5000;
 
-server.listen(PORT, () => console.log(`\n Server started on ${PORT}`));
+
+server.listen(PORT, () => console.log(`Welcome ${yourName}\n Server started on ${PORT}`));
